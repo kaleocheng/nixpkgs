@@ -2676,6 +2676,8 @@ self: super: with self; {
 
   credstash = callPackage ../development/python-modules/credstash { };
 
+  crewai = callPackage ../development/python-modules/crewai { };
+
   criticality-score = callPackage ../development/python-modules/criticality-score { };
 
   crocoddyl = toPythonModule (pkgs.crocoddyl.override {
